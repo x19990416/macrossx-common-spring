@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
 						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd"
 	default-lazy-init="false">
-	<bean id="validator" class="net.sf.oval.Validator" />
+	<bean class="net.sf.oval.Validator" />
 	<bean id="commonProperties"
 		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
 		<property name="locations">
