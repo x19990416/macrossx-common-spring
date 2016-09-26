@@ -8,7 +8,7 @@ targetCompatibility = 1.8
 
 
 group = "com.github.x19990416"
-version='1.0-SNAPSHOT'
+version='1.0.1-SNAPSHOT'
 
 configurations.all {
 	// check for updates every build
