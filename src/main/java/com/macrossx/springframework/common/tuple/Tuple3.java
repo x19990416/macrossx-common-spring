@@ -1,5 +1,4 @@
 package com.macrossx.springframework.common.tuple;
-
 /**
  * 3元组
  * 
@@ -13,15 +12,15 @@ package com.macrossx.springframework.common.tuple;
  *            Nullable，元组的第3个元素
  */
 public class Tuple3<T1, T2, T3> extends Tuple2<T1, T2> {
-	public Tuple3(T1 _1, T2 _2, T3 _3) {
-		super(_1, _2);
-		this._3 = _3;
+	public Tuple3(T1 t_1, T2 t_2, T3 t_3) {
+		super(t_1, t_2);
+		this.t_3 = t_3;
 	}
 
-	public final T3 _3;
+	public final T3 t_3;
 
 	@Override
 	public String toString() {
-		return "(" + _1 + "," + _2 + "," + _3 + ")";
+		return "(" + t_1 + "," + t_2 + "," + t_3 + ")";
 	}
 }

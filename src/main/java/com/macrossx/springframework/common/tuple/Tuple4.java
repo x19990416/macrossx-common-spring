@@ -1,7 +1,5 @@
 package com.macrossx.springframework.common.tuple;
 
-
-
 /**
  * 4元组
  * 
@@ -17,15 +15,15 @@ package com.macrossx.springframework.common.tuple;
  *            Nullable，元组的第4个元素
  */
 public class Tuple4<T1, T2, T3, T4> extends Tuple3<T1, T2, T3> {
-	public Tuple4(T1 _1, T2 _2, T3 _3, T4 _4) {
-		super(_1, _2, _3);
-		this._4 = _4;
+	public Tuple4(T1 t_1, T2 t_2, T3 t_3, T4 t_4) {
+		super(t_1, t_2, t_3);
+		this.t_4 = t_4;
 	}
 
-	public final T4 _4;
+	public final T4 t_4;
 
 	@Override
 	public String toString() {
-		return "(" + _1 + "," + _2 + "," + _3 + "," + _4 + ")";
+		return "(" + t_1 + "," + t_2 + "," + t_3 + "," + t_4 + ")";
 	}
 }
