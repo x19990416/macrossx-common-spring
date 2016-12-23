@@ -1,4 +1,4 @@
-package com.macrossx.springframework;
+package com.macrossx.springframework.util;
 
 import com.google.common.hash.Hashing;
 

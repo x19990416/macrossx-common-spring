@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.macrossx.springframework.common;
+package com.macrossx.springframework.util;
 
 import java.nio.charset.Charset;
 import java.security.NoSuchAlgorithmException;
@@ -24,6 +24,8 @@ import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
+
+import lombok.extern.slf4j.Slf4j;
 
 public class EncryptUtil {
 	public static final Charset UTF_8 = Charset.forName("UTF-8");
