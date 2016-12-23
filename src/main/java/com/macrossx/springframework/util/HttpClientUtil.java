@@ -1,7 +1,6 @@
 package com.macrossx.springframework.util;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Optional;
 
 import org.apache.http.HttpEntity;
