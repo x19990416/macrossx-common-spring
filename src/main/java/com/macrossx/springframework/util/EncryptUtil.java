@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.macrossx.springframework.common;
+package com.macrossx.springframework.util;
 
 import java.nio.charset.Charset;
 import java.security.NoSuchAlgorithmException;
