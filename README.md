@@ -10,3 +10,6 @@ chatbotx usage:
 gradle:
 
 compile group: 'com.github.x19990416', name: 'macrossx-common-spring', version: '1.0-SNAPSHOT'
+
+release 1.0:
+compile group: 'com.github.x19990416', name: 'macrossx-common-spring', version: '1.0'
