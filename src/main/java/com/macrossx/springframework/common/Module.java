@@ -16,7 +16,7 @@
 package com.macrossx.springframework.common;
 
 public interface Module<T> {
-	default String name(){
+	default String name(){ 
 		return this.getClass().getName();
 	}
 }
